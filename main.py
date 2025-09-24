@@ -24,7 +24,7 @@ class Myself:
 
 
     def generateSummary(self):
-        prompt = f"You act as curriculum resumer. You will receive a likendin professional profile and must summary it \
+        prompt = f"You act as curriculum resumer. You will receive a likendin professional profile and must summarize it \
             focus on professional details and skills, don't need to summarize email and linkedin profile. \
             \n\n ### Profile: {self.linkedin}. With this context generate a summary, the output should be a paragraph"
         
